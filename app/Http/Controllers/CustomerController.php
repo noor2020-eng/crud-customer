@@ -9,8 +9,9 @@ class CustomerController extends Controller
 {
     public function index()
     {
-        $customers = Customer::all();
-        return view('customer.index',compact('customers'));
+//        $customers = Customer::all();
+//        return view('customer.index',compact('customers'));
+        return view('welcome');
     }
 
     public function create(){
